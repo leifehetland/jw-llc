@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import Logo from "./Logo";
+import SocialLinks from "./SocialLinks";
 import { nav, site } from "@/lib/site";
 
 export default function Header() {
@@ -19,6 +20,7 @@ export default function Header() {
             <a href={site.phoneHref} className="font-semibold tracking-wide hover:text-sage">
               {site.phone}
             </a>
+            <SocialLinks variant="bar" />
           </div>
         </div>
       </div>
@@ -88,6 +90,18 @@ export default function Header() {
               <Link href="/contact" onClick={() => setOpen(false)} className="btn-primary mt-3">
                 Get a Quote
               </Link>
+              <a
+                href={site.phoneHref}
+                className="mt-4 font-display text-lg font-bold text-forest"
+              >
+                {site.phone}
+              </a>
+              <div className="mt-4 border-t border-sage/40 pt-4">
+                <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-olive">
+                  Follow Us
+                </span>
+                <SocialLinks variant="menu" className="mt-2" />
+              </div>
             </nav>
           </div>
         )}

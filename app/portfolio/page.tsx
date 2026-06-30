@@ -15,7 +15,7 @@ export default function PortfolioPage() {
     <>
       <PageHero
         title="Portfolio"
-        subtitle="A look at recent projects across Metro Atlanta — kitchens, bathrooms, cabinetry, and new construction."
+        subtitle="A look at recent projects across Metro Atlanta: kitchens, bathrooms, cabinetry, and new construction."
         image="/images/kitchen8.jpeg"
       />
 

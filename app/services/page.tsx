@@ -7,7 +7,7 @@ import { serviceCards, services, site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Comprehensive home transformation services — interior remodeling, structural & layout, exterior improvements, essential trade work, and ADA-compliant fit-outs.",
+    "Comprehensive home transformation services: interior remodeling, structural & layout, exterior improvements, essential trade work, and ADA-compliant fit-outs.",
 };
 
 export default function ServicesPage() {

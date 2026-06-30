@@ -20,7 +20,7 @@ const oswald = Oswald({
 const siteUrl = "https://jameswilliamsllc.com";
 const title = "James Williams, LLC | General Contracting in Metro Atlanta";
 const description =
-  "James Williams, LLC — general contracting and home remodeling built on 30+ years of experience serving Metro Atlanta. Kitchens, bathrooms, additions, and whole-home renovations.";
+  "James Williams, LLC offers general contracting and home remodeling built on 30+ years of experience serving Metro Atlanta. Kitchens, bathrooms, additions, and whole-home renovations.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

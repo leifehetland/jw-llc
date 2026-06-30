@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Logo from "./Logo";
-import { nav, services, site, social } from "@/lib/site";
+import SocialLinks from "./SocialLinks";
+import { nav, services, site } from "@/lib/site";
 
 export default function Footer() {
   return (
@@ -36,18 +37,7 @@ export default function Footer() {
               General contracting and home remodeling, built on 30+ years of hands-on
               experience serving {site.area}.
             </p>
-            <div className="mt-5 flex gap-3">
-              {social.map((s) => (
-                <a
-                  key={s.label}
-                  href={s.href}
-                  aria-label={s.label}
-                  className="flex h-9 w-9 items-center justify-center rounded-full border border-sage/40 text-xs font-semibold text-white transition-colors hover:border-white hover:bg-white hover:text-forest"
-                >
-                  {s.label[0]}
-                </a>
-              ))}
-            </div>
+            <SocialLinks variant="footer" className="mt-5" />
           </div>
 
           <div>

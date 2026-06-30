@@ -10,7 +10,7 @@ export const site = {
   area: "Metro Atlanta",
   hero: "Built on 30+ Years of Experience Serving Metro Atlanta",
   heroSub:
-    "From small repairs to full renovations, James Williams brings three decades of hands-on craftsmanship to every home he touches. Solid, dependable work — done right the first time.",
+    "From small repairs to full renovations, James Williams brings three decades of hands-on craftsmanship to every home he touches. Solid, dependable work, done right the first time.",
 };
 
 export const nav = [
@@ -42,7 +42,7 @@ export const serviceCards = [
   {
     title: "Whole-Home Renovations",
     image: "/images/new-construction1.jpeg",
-    text: "Room additions, basement finishing, and full home transformations — from the first wall to the final coat.",
+    text: "Room additions, basement finishing, and full home transformations, from the first wall to the final coat.",
   },
 ];
 
@@ -93,7 +93,7 @@ export const about = {
     "James Williams has been working in construction for over 30 years, helping homeowners around Metro Atlanta get the job done right.",
     "He grew up around it. Coming from a family of general contractors, he was on job sites from a young age, learning the trade hands-on. That's where he picked up his work ethic and attention to detail, and it's something he still brings to every project today.",
     "Whether it's a small repair or a bigger renovation, James takes pride in doing solid, dependable work. He believes in being straightforward, showing up when he says he will, and making sure you're happy with the final result.",
-    "At the end of the day, it's simple — he just wants to do good work for good people.",
+    "At the end of the day, it's simple, he just wants to do good work for good people.",
   ],
   closing: "Serving Metro Atlanta homeowners for over 30 years.",
 };

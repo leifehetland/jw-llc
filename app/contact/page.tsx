@@ -62,7 +62,7 @@ export default function ContactPage() {
               </dl>
               <div className="mt-8 border-t border-white/15 pt-6">
                 <p className="text-sm text-sage-light">
-                  Prefer to talk it through? Give James a call directly — he's happy to
+                  Prefer to talk it through? Give James a call directly. He's happy to
                   walk through your project and what it'll take.
                 </p>
               </div>

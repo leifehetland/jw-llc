@@ -16,7 +16,7 @@ export default function Logo({
   const img = (
     <Image
       src="/logo/jw-lockup.png"
-      alt="James Williams, LLC — General Contracting"
+      alt="James Williams, LLC, General Contracting"
       width={1056}
       height={678}
       className="h-14 w-auto sm:h-16"

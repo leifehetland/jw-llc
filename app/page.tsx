@@ -58,7 +58,7 @@ export default function Home() {
             <p className="mt-5 max-w-xl text-base leading-relaxed text-charcoal/80">
               James Williams comes from a family of general contractors and has spent
               three decades on job sites across {site.area}. That experience shows up in
-              the details — careful work, honest communication, and a finish you'll be
+              the details: careful work, honest communication, and a finish you'll be
               happy with.
             </p>
           </div>
@@ -131,7 +131,7 @@ export default function Home() {
             <Image src="/images/kitchen1.jpeg" alt="Remodeled kitchen" fill sizes="(max-width: 1024px) 100vw, 600px" className="object-cover" />
           </div>
           <div className="order-1 lg:order-2">
-            <p className="eyebrow">Remodeling Done Right — Every Time</p>
+            <p className="eyebrow">Remodeling Done Right, Every Time</p>
             <h2 className="section-title mt-3">
               Comprehensive home transformation services
             </h2>
