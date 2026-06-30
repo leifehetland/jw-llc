@@ -18,7 +18,7 @@ export default function Home() {
       {/* ============ HERO ============ */}
       <section className="relative isolate overflow-hidden bg-forest-deep text-white">
         <Image
-          src="/images/new-construction1.jpeg"
+          src="/images/new-build1.jpeg"
           alt="Home built by James Williams, LLC"
           fill
           priority
@@ -276,7 +276,7 @@ export default function Home() {
             </a>
           </div>
           <div className="relative h-72 overflow-hidden rounded-xl ring-1 ring-white/20">
-            <Image src="/images/new-build1.jpeg" alt="Project in Metro Atlanta" fill sizes="(max-width: 1024px) 100vw, 600px" className="object-cover" />
+            <Image src="/images/new-construction1.jpeg" alt="Project in Metro Atlanta" fill sizes="(max-width: 1024px) 100vw, 600px" className="object-cover" />
           </div>
         </div>
       </section>
