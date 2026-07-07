@@ -15,7 +15,7 @@ export default function ContactForm() {
     const phone = form.get("phone");
     const message = form.get("message");
 
-    // No backend yet — open the visitor's email client as a fallback.
+    // No backend yet: open the visitor's email client as a fallback.
     const subject = encodeURIComponent(`Project inquiry from ${first} ${last}`);
     const body = encodeURIComponent(
       `Name: ${first} ${last}\nEmail: ${email}\nPhone: ${phone}\n\n${message}`

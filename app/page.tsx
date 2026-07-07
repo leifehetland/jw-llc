@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import DrawSchedule from "@/components/DrawSchedule";
 import {
   about,
   portfolio,
@@ -26,23 +27,33 @@ export default function Home() {
           className="object-cover opacity-30"
         />
         <div className="absolute inset-0 -z-10 bg-gradient-to-r from-forest-deep/95 via-forest-deep/80 to-forest-deep/40" />
-        <div className="container-x relative grid gap-10 py-24 md:grid-cols-2 md:py-32">
-          <div className="max-w-xl">
-            <p className="eyebrow !text-sage">General Contracting · Metro Atlanta</p>
+        <div className="container-x relative grid items-center gap-10 py-24 md:grid-cols-2 md:py-32">
+          <div className="mx-auto max-w-xl text-center md:mx-0 md:text-left">
+            <p className="eyebrow !text-sage">Serving Metro Atlanta</p>
             <h1 className="mt-4 font-display text-4xl font-bold uppercase leading-[1.05] tracking-wide sm:text-5xl lg:text-6xl">
               {site.hero}
             </h1>
-            <p className="mt-6 text-lg leading-relaxed text-sage-light">
+            <p className="mt-6 text-left text-lg leading-relaxed text-sage-light">
               {site.heroSub}
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <Link href="/contact" className="btn-primary border-2 border-white bg-white !text-forest hover:bg-transparent hover:!text-white">
+              <Link href="/contact" className="btn-primary w-full border-2 border-white bg-white !text-forest hover:bg-transparent hover:!text-white sm:w-auto">
                 Get a Free Estimate
               </Link>
-              <a href={site.phoneHref} className="btn-outline">
+              <a href={site.phoneHref} className="btn-outline w-full sm:w-auto">
                 Call {site.phone}
               </a>
             </div>
+          </div>
+          <div className="order-first flex justify-center md:order-none md:justify-end">
+            <Image
+              src="/logo/jw-lockup-white.png"
+              alt="James Williams, LLC, General Contracting"
+              width={1056}
+              height={678}
+              priority
+              className="h-auto w-full max-w-md lg:max-w-lg"
+            />
           </div>
         </div>
       </section>
@@ -159,6 +170,9 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ============ DRAW SCHEDULE ============ */}
+      <DrawSchedule />
+
       {/* ============ TESTIMONIALS ============ */}
       <section className="bg-forest-deep text-white">
         <div className="container-x py-20">
@@ -168,15 +182,15 @@ export default function Home() {
               Trusted by Metro Atlanta homeowners
             </h2>
             <p className="mt-3 text-sm text-sage-light/80">
-              {/* Placeholder section — drop in real reviews here. */}
-              Reviews below are placeholders, ready to be replaced with real customer feedback.
+              Real feedback from homeowners across Metro Atlanta.
             </p>
           </div>
-          <div className="mt-12 grid gap-6 md:grid-cols-3">
+          {/* Masonry columns so variable-length quotes pack cleanly. */}
+          <div className="mx-auto mt-12 max-w-5xl columns-1 gap-6 md:columns-2 [&>figure]:mb-6">
             {testimonials.map((t, i) => (
               <figure
                 key={i}
-                className="rounded-xl border border-white/10 bg-white/5 p-6 backdrop-blur"
+                className="break-inside-avoid rounded-xl border border-white/10 bg-white/5 p-6 backdrop-blur"
               >
                 <div className="flex gap-1 text-sage">
                   {"★★★★★".split("").map((s, j) => (

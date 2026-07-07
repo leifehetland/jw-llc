@@ -6,7 +6,7 @@ export const site = {
   tagline: "General Contracting",
   phone: "404-317-6478",
   phoneHref: "tel:404-317-6478",
-  email: "jameswilliamsllc@email.com", // placeholder — update with real address
+  email: "jameswilliamsllc@email.com", // placeholder: update with real address
   area: "Metro Atlanta",
   hero: "Built on 30+ Years of Experience Serving Metro Atlanta",
   heroSub:
@@ -98,25 +98,25 @@ export const about = {
   closing: "Serving Metro Atlanta homeowners for over 30 years.",
 };
 
-// Placeholder testimonials — replace with real customer reviews.
+// Real customer testimonials. (2 more are on the way from James.)
 export const testimonials = [
   {
     quote:
-      "Add a real customer review here. James kept us informed at every step and the finished kitchen exceeded what we pictured.",
-    name: "Customer Name",
-    detail: "Kitchen Remodel · Atlanta",
+      "James has been our go-to contractor since buying our home in 2021, and we wouldn't trust our property to anyone else. Most recently, he completely renovated our primary bathroom, and the results exceeded our expectations. He's also completed major plumbing, exterior maintenance and a porch renovation for us. What sets James and the team apart is that he does what he says he's going to do, a quality that's harder and harder to find these days. He's honest, fair, dependable, and takes real pride in his work.",
+    name: "Emily",
+    detail: "Homeowner since 2021",
   },
   {
     quote:
-      "Placeholder review. He showed up when he said he would and the craftsmanship speaks for itself.",
-    name: "Customer Name",
-    detail: "Bathroom Renovation · Decatur",
+      "We really enjoyed working with James. We designed a \"ship-in-a-bottle\" en-suite bathroom within our 1901 bungalow, converting what had previously been a bedroom closet. The project involved relocating an electrical panel, installing a new window, and carefully removing and reinstalling salvaged heart pine flooring. James's attention to detail was exceptional. He even took several damaged pieces of our historic base blocks, the decorative blocks beneath the door casing, back to his shop and fabricated matching replacements so the new doorway would maintain the home's original character and detailing. His mechanical, electrical, and plumbing subcontractors were excellent, as were the tile and flooring crews. My wife and I are both architects, so our standards tend to be higher than average. James worked in tandem with Paul Terry of Bye Eye, LLC on this project. The team that did our project exceeded our expectations in both craftsmanship and professionalism. We would not hesitate to recommend James and his team for future projects.",
+    name: "Alex & Racheal",
+    detail: "Candler Park",
   },
   {
     quote:
-      "Placeholder review. Straightforward, honest, and dependable from estimate to final walkthrough.",
-    name: "Customer Name",
-    detail: "Whole-Home Renovation · DeKalb County",
+      "I have had the pleasure of working with Jim Williams on projects at my own home and have confidently referred him to many of my real estate clients over the years. Jim is far more than your average contractor. His craftsmanship, precision, and exceptional attention to detail consistently set him apart. His cabinetry skills are outstanding, and his deep knowledge of building and construction allows him to tackle projects of every size and complexity. Whether it's building a custom home from an empty lot, completing a major renovation, or transforming an older property through a full remodel, Jim brings the same level of professionalism, expertise, and commitment to excellence. As a Realtor, having a contractor I can trust is invaluable, and Jim has become an indispensable resource for both me and my clients. His extensive experience, problem-solving abilities, and dedication to delivering quality work make him a unique and valuable partner on any project. I highly recommend Jim Williams to anyone looking for a contractor who truly takes pride in his work and consistently exceeds expectations.",
+    name: "Jeff & Shane",
+    detail: "White Oak Hills",
   },
 ];
 
@@ -148,3 +148,23 @@ export const social = [
   { label: "Instagram", href: "#" },
   { label: "Google", href: "#" },
 ];
+
+export const drawSchedule = {
+  eyebrow: "How We Handle Payments",
+  benefitsHeading: "The Benefits of a Draw Schedule",
+  benefits: [
+    "On larger jobs James utilizes a structured payment format known as a draw schedule. Designed to give homeowners peace of mind, this method ensures that payments are directly tied to clear, measurable project milestones. By paying only as specific phases of the job are completed, the homeowner always knows exactly what they are paying for.",
+    "In contrast, traditional weekly or bi-weekly payment models often leave homeowners guessing about what actual progress has been made and whether their funds match the work completed.",
+  ],
+  howHeading: "How a Draw Schedule Works",
+  how: [
+    "A draw schedule is a phased payment plan that outlines exactly when and how funds are released throughout a construction or renovation project. Instead of requiring a massive upfront payment or a single lump sum at the end, project funds are disbursed in installments (called \"draws\") only after pre-determined milestones are successfully achieved.",
+  ],
+  milestonesIntro: "Examples of standard draw milestones include:",
+  milestones: [
+    "Completion of the foundation",
+    "Framing inspection approval",
+    "Rough-in plumbing and electrical",
+    "Drywall installation and finishing",
+  ],
+};

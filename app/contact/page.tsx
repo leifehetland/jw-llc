@@ -56,7 +56,7 @@ export default function ContactPage() {
                 <div>
                   <dt className="text-xs font-semibold uppercase tracking-widest text-sage">Hours</dt>
                   <dd className="mt-1 text-sage-light">
-                    Mon–Sat, by appointment
+                    Monday to Saturday, by appointment
                   </dd>
                 </div>
               </dl>
