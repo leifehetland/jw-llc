@@ -6,7 +6,7 @@ export const site = {
   tagline: "General Contracting",
   phone: "404-317-6478",
   phoneHref: "tel:404-317-6478",
-  email: "jameswilliamsllc@email.com", // placeholder: update with real address
+  email: "james.jwllc@gmail.com",
   area: "Metro Atlanta",
   hero: "Built on 30+ Years of Experience Serving Metro Atlanta",
   heroSub:
