@@ -98,8 +98,14 @@ export const about = {
   closing: "Serving Metro Atlanta homeowners for over 30 years.",
 };
 
-// Real customer testimonials. (2 more are on the way from James.)
+// Real customer testimonials. (More may still be on the way from James.)
 export const testimonials = [
+  {
+    quote:
+      "My friend and contractor, James has done an absolutely amazing job with our big gut renovation/addition. He has a crew that cares about their work and one another, a huge benefit for this kind of project! It's made the pain of waiting for our home transformation bearable. Their work has been pretty much perfect! Highly recommend.",
+    name: "Brittany & Scott",
+    detail: "Medlock Park, Decatur",
+  },
   {
     quote:
       "James has been our go-to contractor since buying our home in 2021, and we wouldn't trust our property to anyone else. Most recently, he completely renovated our primary bathroom, and the results exceeded our expectations. He's also completed major plumbing, exterior maintenance and a porch renovation for us. What sets James and the team apart is that he does what he says he's going to do, a quality that's harder and harder to find these days. He's honest, fair, dependable, and takes real pride in his work.",
